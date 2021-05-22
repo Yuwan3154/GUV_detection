@@ -78,7 +78,7 @@ def detect(opt):
 
         # Process detections
         for i, det in enumerate(pred):  # detections per image
-            print("index is " + i)
+            print("index is " + str(i))
             print("/n")
             print(det)
             print("/n")
