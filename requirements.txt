@@ -18,7 +18,6 @@ tensorboard>=2.4.1
 # plotting ------------------------------------
 seaborn>=0.11.0
 pandas
-scikit-image==0.17.2
 
 # export --------------------------------------
 # coremltools>=4.1
@@ -29,3 +28,6 @@ scikit-image==0.17.2
 thop  # FLOPS computation
 Cython  # for pycocotools https://github.com/cocodataset/cocoapi/issues/172
 pycocotools>=2.0  # COCO mAP
+
+# image analysis ------------------------------
+scikit-image==0.17.2
