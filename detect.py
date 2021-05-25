@@ -78,11 +78,6 @@ def detect(opt):
 
         # Process detections
         for i, det in enumerate(pred):  # detections per image
-            print("\n")
-            print("index is " + str(i))
-            print("\n")
-            print(det)
-            
             if webcam:  # batch_size >= 1
                 p, s, im0, frame = path[i], f'{i}: ', im0s[i].copy(), dataset.count
             else:
@@ -187,3 +182,4 @@ if __name__ == '__main__':
                 strip_optimizer(opt.weights)
         else:
             detect(opt=opt)
+            
